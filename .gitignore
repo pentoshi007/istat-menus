@@ -2,3 +2,4 @@
 .clai/
 NEXT_STEPS.md
 .bootstrap-extract/
+__pycache__/
