@@ -8,12 +8,15 @@ Locally patched iStat Menus 7.50.1 (universal: arm64 + x86_64):
 * re-signed with a local identity and installed at `/Applications`; menu-bar
   items hosted by a login agent, fan-control daemon running.
 
-Verified on macOS 26 — the full patch table, crash-fix notes and verification
-details are in `NEXT_STEPS.md` (read it first).
+Verified on macOS 26 — install steps and technical details are in
+`package/README.md`.
 
 ## Deliverable
 
-`iStatMenus7.50.1-patched.zip` — the finished, installable build.
+`iStatMenus7.50.1-patched.zip` — the finished, installable build (contains the
+app plus its installer and signing assets).
+`bootstrap.command` — one-step install: extracts the zip and runs its
+installer (or unzip manually and double-click `install.command`).
 `package/` — installer/uninstaller and signing assets used to produce it
 (`package/README.md`).
 `iStatMenus7.50.1.zip` — the original unpatched download (provenance).
